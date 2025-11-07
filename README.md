@@ -51,10 +51,15 @@ main
 4. Quel est le message du **premier commit** du projet ?  
 * Initial commit: structure HTML/CSS/JS + README + docs
 
-5. Trouvez le commit où une **clé API** a été ajoutée par erreur. Quel est son identifiant (hash court) ?  
-6. Quel commit a ensuite corrigé cette erreur ?  
+5. Trouvez le commit où une **clé API** a été ajoutée par erreur. Quel est son identifiant (hash court) ? 
+ *  bea2d
+6. Quel commit a ensuite corrigé cette erreur ? 
+*   1b682
 7. Trouvez le commit où le **titre de la page d'accueil** a été corrigé.  
+* 6317c
 8. Quel est le message du commit qui a **ajouté le fichier `CHANGELOG.md`** et quelle commande avez-vous utilisé ?
+* docs: ajoute un changelog de base
+* git log 
 
 ### Partie 4 — Branches et fusions
 
