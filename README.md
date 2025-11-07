@@ -73,10 +73,27 @@ main
 
 ### Partie 5 — Analyse du contenu
 
-11. Quelle est la **différence principale** entre les fichiers `index.html` dans les versions `v0.1` et `v0.2` et quelle commande permet de le voir rapidement ?  
+11. Quelle est la **différence principale** entre les fichiers `index.html` dans les versions `v0.1` et `v0.
+2` et quelle commande permet de le voir rapidement ? 
+```sh 
+< "-- NOTE HISTORIQUE: ancien slogan modifié plusieurs fois 
+    <h1>Bienvenue sur notre site Wolrd!</h1>
+   <p id="tagline">Un site tout simple pour apprendre Git.</p>" 
+
+   * git diff v0.1 v0.2
+```
+
 12. Que contient la branche `feature/login` ?  
+* git checkout feature/login
+* ls
+```sh
+README.md  config.js  docs/  index.html  login.html  script.js  style.css
+```
 13. Dans quelle branche a été ajouté le code pour le **mode sombre** ?  
+experiment/dark-mode
+
 14. Quelle bonne pratique de sécurité est évoquée dans les commits du fichier `config.js` ?
+ Ajout temporaire d'une clé API
 
 ### Partie 6 — Réflexion
 
