@@ -33,12 +33,24 @@ https://github.com/ETML-RRY/324_inspection_git.git
 ### Partie 2 — Exploration de base
 
 1. Combien de branches existent dans le dépôt ? Citez-les.  
-2. Quels sont les **tags** disponibles ? A quoi correspondent-ils ?  
+* 5:
+    * hotfix/typo
+    * feature/login
+    * feature/header
+    * experiment/dark-mode
+2. Quels sont les **tags** disponibles ? A quoi correspondent-ils ? 
+* v0.1
+* v0.2
+ 
+
 3. Quelle est la **branche principale** du projet ?
+main
 
 ### Partie 3 — Historique et commits
 
 4. Quel est le message du **premier commit** du projet ?  
+* Initial commit: structure HTML/CSS/JS + README + docs
+
 5. Trouvez le commit où une **clé API** a été ajoutée par erreur. Quel est son identifiant (hash court) ?  
 6. Quel commit a ensuite corrigé cette erreur ?  
 7. Trouvez le commit où le **titre de la page d'accueil** a été corrigé.  
