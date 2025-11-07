@@ -63,8 +63,13 @@ main
 
 ### Partie 4 — Branches et fusions
 
-9. Quelles branches ont été fusionnées dans `main` ?  
+9. Quelles branches ont été fusionnées dans `main` ? 
+*   merge(feature/login): intègre la page de connexion
+*  merge(feature/header): intègre la navigation
+* merge(hotfix/typo): corrige la typo sur main
+ 
 10. Quelle branche **n'a pas été fusionnée** ? Pourquoi, selon vous ? 
+ * experiment/dark-mode n'a pas été fusionnée car elle est experimentale 
 
 ### Partie 5 — Analyse du contenu
 
