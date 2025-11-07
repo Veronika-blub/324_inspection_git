@@ -98,6 +98,11 @@ experiment/dark-mode
 ### Partie 6 — Réflexion
 
 15. Pourquoi est-il important de **taguer** des versions dans un projet ?  
+```sh
+Les tags servent généralement à marquer les étapes importantes du projet comme les versions (v1.0 /v2.0).
+
+```
+
 16. Que peut-on déduire du style de travail de l'équipe à partir de cet historique GIT ?  
 
 Bonne chance, et surtout... **ne vous perdez pas dans le log !** 😉
